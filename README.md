@@ -9,7 +9,7 @@ This is the Client application of the Cadtreesa Project developed with [VueJS](h
 ## Get this project
 
 ```
-# com git instalado em sua maquina execute
+# with git installed on your machine run
 git clone https://github.com/thalysonrodrigues/cadtreesa-client.git
 ```
 
