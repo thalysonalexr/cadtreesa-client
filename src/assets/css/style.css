@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+*{
+  font-family: 'PT Sans', sans-serif!important;
+}
+
+html, body, main{
+  min-height: 100%!important;
+  height: 100%!important;
+  width: 100%!important;
+}
+
+/* forms */
+
+#errors, #success{ margin: 2%; }
+
+#errors ul{
+  list-style: none;
+  margin-top: 2%;
+  padding: 0;
+}
+
+#errors ul li{ width: 100%; }
+
+#errors span{
+  font-size: 1.2em;
+  font-weight: 300!important;
+  text-transform: uppercase;
+}
+
+legend{
+  font-size: 1.5em!important;
+  padding: 3%!important;
+  text-align: center;
+  margin: 0!important;
+}
+
+label{
+  float: left;
+  font-weight: 700;
+  width: 100%;
+}
+
+legend, label{ color: #545454!important; }
+
+fieldset{ margin: auto!important; }
+
+input{
+  width: 100%;
+}
+
+label, input, button{
+  font-size: 1.2em!important;
+}
+
+.alert{ font-size: 1.2em; }
+
+.obrigatory{
+  color: red;
+}
